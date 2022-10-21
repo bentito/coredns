@@ -289,3 +289,22 @@ func (c *Cache) exists(name string, qtype, qclass uint16, do, cd bool) *item {
 	}
 	return nil
 }
+
+
+// setDo sets the DO bit and UDP buffer size in the message m.
+func setDo(m *dns.Msg) {
+	o := m.IsEdns0()
+	if o != nil {
+		o.SetDo()
+		return
+	}
+
+	o = &dns.OPT{Hdr: dns.RR_Header{Name: ".", Rrtype: dns.TypeOPT}}
+	o.SetDo()
+	o.SetUDPSize(defaultUDPBufSize)
+	m.Extra = append(m.Extra, o)
+}
+
+// defaultUDPBufsize is the bufsize the cache plugin uses on outgoing requests that don't
+// have an OPT RR.
+const defaultUDPBufSize = 512
