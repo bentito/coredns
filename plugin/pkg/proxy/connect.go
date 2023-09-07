@@ -6,7 +6,10 @@ package proxy
 import (
 	"context"
 	"errors"
+<<<<<<< HEAD
 	"fmt"
+=======
+>>>>>>> 37a9afe69 (UPSTREAM: 6277: openshift: Fix OCPBUGS-27397)
 	"io"
 	"net"
 	"net/http/httptrace"
@@ -191,7 +194,6 @@ func (p *Proxy) lookupDNS(_ctx context.Context, state request.Request, opts Opti
 					(ret != nil && ret.Id != state.Req.Id)) {
 				continue
 			}
-
 			if ret != nil && (state.Req.Id == ret.Id) && p.transport.transportTypeFromConn(pc) == typeUDP && shouldTruncateResponse(err) {
 				// For UDP, if the error is an overflow, we probably have an upstream misbehaving in some way.
 				// (e.g. sending >512 byte responses without an eDNS0 OPT RR).

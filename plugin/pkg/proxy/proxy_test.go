@@ -242,7 +242,6 @@ func TestCoreDNSOverflow(t *testing.T) {
 
 	// Test ForceTCP, expect no truncated response
 	testConnection("ForceTCP", Options{ForceTCP: true}, false)
-
 	// Test both TCP and UDP provided, expect no truncated response
 	testConnection("BothTCPAndUDP", Options{PreferUDP: true, ForceTCP: true}, false)
 }
@@ -270,6 +269,7 @@ func TestShouldTruncateResponse(t *testing.T) {
 		})
 	}
 }
+<<<<<<< HEAD
 
 func TestProxyMalformedUDPThenValid(t *testing.T) {
 	tests := []struct {
