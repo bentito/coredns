@@ -66,4 +66,5 @@ import (
 	_ "github.com/coredns/coredns/plugin/whoami"
 
 	_ "github.com/openshift/coredns-mdns"
+	_ "github.com/openshift/coredns-ocp-dnsnameresolver"
 )

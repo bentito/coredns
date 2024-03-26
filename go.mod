@@ -163,7 +163,10 @@ require (
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
+	github.com/openshift/api v0.0.0-20231017161003-8f2e18642ccb // indirect
+	github.com/openshift/client-go v0.0.0-20231018150822-6e226e2825a6 // indirect
 	github.com/openshift/coredns-mdns v0.0.0-20210625150643-8c0b6474833f // indirect
+	github.com/openshift/coredns-ocp-dnsnameresolver v0.0.0-20240712094134-af651cec05d1 // indirect
 	github.com/openshift/mdns-publisher v0.0.0-20200219161514-0e41fab1ddec // indirect
 	github.com/opentracing-contrib/go-observer v0.0.0-20170622124052-a52f23424492 // indirect
 	github.com/oschwald/maxminddb-golang/v2 v2.3.0 // indirect
@@ -223,6 +226,7 @@ require (
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )

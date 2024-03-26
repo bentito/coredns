@@ -426,6 +426,7 @@ github.com/google/go-cmp v0.3.1/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMyw
 github.com/google/go-cmp v0.4.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/google/go-cmp v0.5.9/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=
 github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=
 github.com/google/go-querystring v1.0.0/go.mod h1:odCYkC5MyYFN7vkCjXpyrEuKhc/BUO6wN/zVPAxq5ck=
@@ -686,8 +687,14 @@ github.com/open-telemetry/opentelemetry-collector-contrib/pkg/sampling v0.145.0 
 github.com/open-telemetry/opentelemetry-collector-contrib/pkg/sampling v0.145.0/go.mod h1:jYlQAaJO4ZyJAW2jcKAbjN+nt5BRCyu49mlZv4Rui7U=
 github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor v0.145.0 h1:12mxn+8YLeAjMZ1kLGulBcvHrdhRNUmxLVIDnaLkJbQ=
 github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor v0.145.0/go.mod h1:V87HYJpfmvCeQ6Cjy3Q4xylxfCn2wVSS80wvv5ECc0s=
+github.com/openshift/api v0.0.0-20231017161003-8f2e18642ccb h1:ez6Jrs2pSGMdPMR4l6znFIXfrNHJeXmg7baebSju7tk=
+github.com/openshift/api v0.0.0-20231017161003-8f2e18642ccb/go.mod h1:qNtV0315F+f8ld52TLtPvrfivZpdimOzTi3kn9IVbtU=
+github.com/openshift/client-go v0.0.0-20231018150822-6e226e2825a6 h1:3wgEtuYbZ76oOXjhSJ2p1m0lftgghK0XlR9guG2aKhA=
+github.com/openshift/client-go v0.0.0-20231018150822-6e226e2825a6/go.mod h1:Fkn7VRruQ4KwNGeaUmi9QgqLk/d7U6cj+UiP8b+0hiQ=
 github.com/openshift/coredns-mdns v0.0.0-20210625150643-8c0b6474833f h1:fNTw437SGd4KAzm32K6ibCPtUXhQgDrhpp+xAcoPd+g=
 github.com/openshift/coredns-mdns v0.0.0-20210625150643-8c0b6474833f/go.mod h1:yixafteIRjJo5rpW96/rCpP3JdnIB4TMqzVW0kn+5wU=
+github.com/openshift/coredns-ocp-dnsnameresolver v0.0.0-20240712094134-af651cec05d1 h1:lsNmGoWoCa/ZOItpr8Li/Gyw7gc4x0uPQT96B5ND8vo=
+github.com/openshift/coredns-ocp-dnsnameresolver v0.0.0-20240712094134-af651cec05d1/go.mod h1:iGWBUTo8PxDirnFeigRctVH0/W73riunKDRZnIG8sGo=
 github.com/openshift/mdns-publisher v0.0.0-20200219161514-0e41fab1ddec h1:0fWpwdrF3o1R60gtWY5FRWOaPsV2m1/LtP46Llpjtio=
 github.com/openshift/mdns-publisher v0.0.0-20200219161514-0e41fab1ddec/go.mod h1:1DId6aNX6GVTqRflTmMuE/mGa6pjZ0uGXDDrpB649Ao=
 github.com/opentracing-contrib/go-observer v0.0.0-20170622124052-a52f23424492 h1:lM6RxxfUMrYL/f8bWEUqdXrANWtrL7Nndbm9iFN0DlU=
@@ -1438,10 +1445,13 @@ sigs.k8s.io/mcs-api v0.5.2/go.mod h1:zZ5CK8uS6HaLkxY4HqsmcBHfzHuNMrY2uJy8T7jffK4
 sigs.k8s.io/randfill v1.0.0 h1:JfjMILfT8A6RbawdsK2JXGBR5AQVfd+9TbzrlneTyrU=
 sigs.k8s.io/randfill v1.0.0/go.mod h1:XeLlZ/jmk4i1HRopwe7/aU3H5n1zNUcX6TM94b3QxOY=
 sigs.k8s.io/structured-merge-diff/v4 v4.0.2/go.mod h1:bJZC9H9iH24zzfZ/41RGcq60oK1F7G282QMXDPYydCw=
+sigs.k8s.io/structured-merge-diff/v4 v4.4.2 h1:MdmvkGuXi/8io6ixD5wud3vOLwc1rj0aNqRlpuvjmwA=
+sigs.k8s.io/structured-merge-diff/v4 v4.4.2/go.mod h1:N8f93tFZh9U6vpxwRArLiikrE5/2tiu1w1AGfACIGE4=
 sigs.k8s.io/structured-merge-diff/v6 v6.3.0 h1:jTijUJbW353oVOd9oTlifJqOGEkUw2jB/fXCbTiQEco=
 sigs.k8s.io/structured-merge-diff/v6 v6.3.0/go.mod h1:M3W8sfWvn2HhQDIbGWj3S099YozAsymCo/wrT5ohRUE=
 sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
 sigs.k8s.io/yaml v1.2.0/go.mod h1:yfXDCHCao9+ENCvLSE62v9VSji2MKu5jeNfTrofGhJc=
+sigs.k8s.io/yaml v1.4.0/go.mod h1:Ejl7/uTz7PSA4eKMyQCUTnhZYNmLIl+5c2lQPGR2BPY=
 sigs.k8s.io/yaml v1.6.0 h1:G8fkbMSAFqgEFgh4b1wmtzDnioxFCUgTZhlbj5P9QYs=
 sigs.k8s.io/yaml v1.6.0/go.mod h1:796bPqUfzR/0jLAl6XjHl3Ck7MiyVv8dbTdyT3/pMf4=
 sourcegraph.com/sourcegraph/appdash v0.0.0-20190731080439-ebfcffb1b5c0/go.mod h1:hI742Nqp5OhwiqlzhgfbWU4mW4yO10fP+LoT9WOswdU=
