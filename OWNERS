@@ -10,6 +10,8 @@ approvers:
   - rfredette
   - alebedev87
   - gcs278
+  - rikatz
+  - bentito
 
 component: DNS
 
