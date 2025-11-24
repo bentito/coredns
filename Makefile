@@ -54,9 +54,4 @@ dep-ensure:
 
 .PHONY: test
 test: check
-	( cd request ; go test -v -race ./... )
-	( cd core ; go test -v -race  ./... )
-	( cd coremain ; go test -v -race ./... )
-	( cd test ; go test -v -race ./... )
-	( cd plugin ; go test -v -race ./... )
-
+	GOFLAGS=-mod=vendor go test -v -race ./...
