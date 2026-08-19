@@ -1,0 +1,25 @@
+plugin.cfg
+  s_cab6931a595a19::t_31fa710ade5f29 56
+core/plugin/zplugin.go
+  s_cab6931a595a19::t_68d97eb6bf2566 67-68
+carry_consolidation/ocp_dnsnameresolver.md
+  s_cab6931a595a19::t_68d97eb6bf2566 1-23
+go.mod
+  s_cab6931a595a19::t_68d97eb6bf2566 28,165-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "4b8f84fa02c5e4442194660f4655e514a228e726",
+  "prompts": {},
+  "sessions": {
+    "s_cab6931a595a19": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "b114b921-ad3e-41a5-a38d-a280e24d0041",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
