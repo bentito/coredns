@@ -1,0 +1,19 @@
+carry_consolidation/dependabot_policy.md
+  s_cab6931a595a19::t_2fa5301b9597d4 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "3171c9cfc4f0fd113df5dd751de8fb6dd9607bb0",
+  "prompts": {},
+  "sessions": {
+    "s_cab6931a595a19": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "b114b921-ad3e-41a5-a38d-a280e24d0041",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
