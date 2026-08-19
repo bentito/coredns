@@ -1,0 +1,19 @@
+Dockerfile.openshift
+  s_cab6931a595a19::t_6d382266ce71c1 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "e8f2d4cc77e2ddb8395554d39ef6c0a013a8ea40",
+  "prompts": {},
+  "sessions": {
+    "s_cab6931a595a19": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "b114b921-ad3e-41a5-a38d-a280e24d0041",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
