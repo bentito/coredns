@@ -1,0 +1,29 @@
+core/dnsserver/zdirectives.go
+  s_cab6931a595a19::t_f6dc1024e62429 47
+go.mod
+  s_cab6931a595a19::t_68d97eb6bf2566 28,165-166
+plugin.cfg
+  s_cab6931a595a19::t_31fa710ade5f29 56
+carry_consolidation/ocp_dnsnameresolver.md
+  s_cab6931a595a19::t_68d97eb6bf2566 1-23
+core/plugin/zplugin.go
+  s_cab6931a595a19::t_68d97eb6bf2566 67-68
+go.sum
+  s_cab6931a595a19::t_1a3effc33f91dd 317-322
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "61f48312e09535e790c1a8c68d02686a9d829e3b",
+  "prompts": {},
+  "sessions": {
+    "s_cab6931a595a19": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "b114b921-ad3e-41a5-a38d-a280e24d0041",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": null
+    }
+  }
+}
