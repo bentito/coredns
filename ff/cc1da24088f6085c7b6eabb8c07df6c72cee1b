@@ -1,0 +1,23 @@
+plugin/kubernetes/handler.go
+  s_e7929fb30b042b::t_65bd8118d93d33 5-6,33-36,96,100-101
+plugin/kubernetes/kubernetes.go
+  s_e7929fb30b042b::t_65bd8118d93d33 97
+plugin/kubernetes/setup.go
+  s_e7929fb30b042b::t_65bd8118d93d33 10,65-82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "ffcc1da24088f6085c7b6eabb8c07df6c72cee1b",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
