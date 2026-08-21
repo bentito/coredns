@@ -1,0 +1,21 @@
+OWNERS
+  s_e7929fb30b042b::t_e60f2dd810289b 13-14
+carry_consolidation/OWNERS.md
+  s_e7929fb30b042b::t_e60f2dd810289b 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "fe750e75f5c24cde2799f1c12b954bb9b984d266",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
