@@ -1,0 +1,25 @@
+go.mod
+  s_e7929fb30b042b::t_35fe647e629bf0 107-108,166-167,182
+core/dnsserver/zdirectives.go
+  s_e7929fb30b042b::t_2713cfded06bc5 48
+plugin.cfg
+  s_e7929fb30b042b::t_40a5e41222570f 57
+core/plugin/zplugin.go
+  s_e7929fb30b042b::t_813632cbeca216 67-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "a9babdfb1487efeb3a9c8544283d11c53e855963",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
