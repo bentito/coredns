@@ -1,0 +1,21 @@
+Dockerfile.ocp
+  s_e7929fb30b042b::t_d74b84d3ab7086 1-13
+.ci-operator.yaml
+  s_e7929fb30b042b::t_d74b84d3ab7086 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "438d7cee0789ce95d442f1ec47e49add496715f1",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
