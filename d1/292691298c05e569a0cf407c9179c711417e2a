@@ -1,0 +1,23 @@
+carry_consolidation/makefile.patch
+  s_e7929fb30b042b::t_a639d9fde0c08c 1-14
+carry_consolidation/make_test_policy.md
+  s_e7929fb30b042b::t_a639d9fde0c08c 1-14
+Makefile
+  s_e7929fb30b042b::t_7a398d02a38549 57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "d1292691298c05e569a0cf407c9179c711417e2a",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
