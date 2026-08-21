@@ -1,0 +1,20 @@
+plugin/cache/handler.go
+  s_e7929fb30b042b::t_caf4e3b851b0d2 293
+  s_e7929fb30b042b::t_1f282bc952c690 292,294-310
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "eb2468916a0c3452c6bf532a2594ad0a0ec45953",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
