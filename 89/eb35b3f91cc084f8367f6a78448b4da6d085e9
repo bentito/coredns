@@ -1,0 +1,515 @@
+go.mod
+  s_e7929fb30b042b::t_9c3a4943b06b3a 57-58
+go.sum
+  s_e7929fb30b042b::t_ab5a2f543c4758 677
+vendor/github.com/celebdor/zeroconf/.gitignore
+  s_e7929fb30b042b::t_ef1612a8f9bb46 1-24
+vendor/github.com/celebdor/zeroconf/LICENSE
+  s_e7929fb30b042b::t_ca0f02aa9b3a15 1-27
+vendor/github.com/celebdor/zeroconf/README.md
+  s_e7929fb30b042b::t_e1e1f795fc781e 1-108
+vendor/github.com/celebdor/zeroconf/client.go
+  s_e7929fb30b042b::t_6c488fe3bab4c2 1-458
+vendor/github.com/celebdor/zeroconf/connection.go
+  s_e7929fb30b042b::t_8ddf74626d31b3 1-115
+vendor/github.com/celebdor/zeroconf/doc.go
+  s_e7929fb30b042b::t_48e4a85d73c9af 1-14
+vendor/github.com/celebdor/zeroconf/server.go
+  s_e7929fb30b042b::t_44e6d9e293141b 1-761
+vendor/github.com/celebdor/zeroconf/service.go
+  s_e7929fb30b042b::t_52bfdd72bc036a 1-109
+vendor/github.com/celebdor/zeroconf/utils.go
+  s_e7929fb30b042b::t_34d868f0b8eba1 1-8
+vendor/github.com/cenkalti/backoff/.gitignore
+  s_e7929fb30b042b::t_22fbbeb5ab7a97 1-22
+vendor/github.com/cenkalti/backoff/.travis.yml
+  s_e7929fb30b042b::t_485d2968947486 1-10
+vendor/github.com/cenkalti/backoff/LICENSE
+  s_e7929fb30b042b::t_c4f18b5dbef103 1-20
+vendor/github.com/cenkalti/backoff/README.md
+  s_e7929fb30b042b::t_c79e2110bae5e2 1-30
+vendor/github.com/cenkalti/backoff/backoff.go
+  s_e7929fb30b042b::t_a3abaaf290c826 1-66
+vendor/github.com/cenkalti/backoff/context.go
+  s_e7929fb30b042b::t_3a74adff8f525b 1-63
+vendor/github.com/cenkalti/backoff/exponential.go
+  s_e7929fb30b042b::t_496a3e3bca1428 1-153
+vendor/github.com/cenkalti/backoff/retry.go
+  s_e7929fb30b042b::t_1fb70fdff85bc3 1-82
+vendor/github.com/cenkalti/backoff/ticker.go
+  s_e7929fb30b042b::t_2e329118320fe0 1-82
+vendor/github.com/cenkalti/backoff/tries.go
+  s_e7929fb30b042b::t_6907c97d6f8028 1-35
+vendor/github.com/coredns/caddy/onevent/hook/config.go
+  s_e7929fb30b042b::t_b4cc7fc74f59cc 1-20
+vendor/github.com/coredns/caddy/onevent/hook/hook.go
+  s_e7929fb30b042b::t_1b4d849a24b4e9 1-41
+vendor/github.com/coredns/caddy/onevent/on.go
+  s_e7929fb30b042b::t_03aa0d014f1e8d 1-71
+vendor/github.com/google/go-cmp/cmp/cmpopts/equate.go
+  s_e7929fb30b042b::t_7c266ff56839f5 1-185
+vendor/github.com/google/go-cmp/cmp/cmpopts/ignore.go
+  s_e7929fb30b042b::t_84f5f973bdf9d8 1-206
+vendor/github.com/google/go-cmp/cmp/cmpopts/sort.go
+  s_e7929fb30b042b::t_e537e8a52aeed2 1-171
+vendor/github.com/google/go-cmp/cmp/cmpopts/struct_filter.go
+  s_e7929fb30b042b::t_5fb467e300486a 1-189
+vendor/github.com/google/go-cmp/cmp/cmpopts/xform.go
+  s_e7929fb30b042b::t_c9db3d4d164ef1 1-36
+vendor/github.com/openshift/api/LICENSE
+  s_e7929fb30b042b::t_1379818c1f9c18 1-191
+vendor/github.com/openshift/api/config/v1/0000_00_cluster-version-operator_01_clusteroperator.crd.yaml
+  s_e7929fb30b042b::t_0d9662010d42f2 1-137
+vendor/github.com/openshift/api/config/v1/0000_00_cluster-version-operator_01_clusterversion.crd.yaml
+  s_e7929fb30b042b::t_26e0d27ac4d6de 1-456
+vendor/github.com/openshift/api/config/v1/0000_03_config-operator_01_proxy.crd.yaml
+  s_e7929fb30b042b::t_7d13e403b767ee 1-78
+vendor/github.com/openshift/api/config/v1/0000_03_marketplace-operator_01_operatorhub.crd.yaml
+  s_e7929fb30b042b::t_77e75e29749ffa 1-84
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_apiserver-CustomNoUpgrade.crd.yaml
+  s_e7929fb30b042b::t_58fef64e9694bd 1-179
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_apiserver-Default.crd.yaml
+  s_e7929fb30b042b::t_f7b9a4f22b2190 1-179
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_apiserver-TechPreviewNoUpgrade.crd.yaml
+  s_e7929fb30b042b::t_85d802c8dba4a0 1-179
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_authentication.crd.yaml
+  s_e7929fb30b042b::t_e8866ecf7474fe 1-101
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_console.crd.yaml
+  s_e7929fb30b042b::t_d3f7404f571f6d 1-57
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_dns-CustomNoUpgrade.crd.yaml
+  s_e7929fb30b042b::t_d42fff74731b2a 1-114
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_dns-Default.crd.yaml
+  s_e7929fb30b042b::t_c7a998326ed8dd 1-114
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_dns-TechPreviewNoUpgrade.crd.yaml
+  s_e7929fb30b042b::t_ea500c426f1b82 1-114
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_featuregate.crd.yaml
+  s_e7929fb30b042b::t_a795ce0f12f217 1-153
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_image.crd.yaml
+  s_e7929fb30b042b::t_416ba62eda6d78 1-108
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_imagecontentpolicy.crd.yaml
+  s_e7929fb30b042b::t_3ff75564d14533 1-68
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_imagedigestmirrorset.crd.yaml
+  s_e7929fb30b042b::t_80652286a6fe01 1-74
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_imagetagmirrorset.crd.yaml
+  s_e7929fb30b042b::t_fe4918bf019e4a 1-74
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_infrastructure-CustomNoUpgrade.crd.yaml
+  s_e7929fb30b042b::t_cf8763bfc8a537 1-1023
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_infrastructure-CustomNoUpgrade.crd.yaml-patch
+  s_e7929fb30b042b::t_7ad43e8400cf0c 1-24
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_infrastructure-Default.crd.yaml
+  s_e7929fb30b042b::t_8b462f41e49de1 1-886
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_infrastructure-Default.crd.yaml-patch
+  s_e7929fb30b042b::t_fba1c48e0900d8 1-24
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_infrastructure-TechPreviewNoUpgrade.crd.yaml
+  s_e7929fb30b042b::t_02ff993d609c37 1-1023
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_infrastructure-TechPreviewNoUpgrade.crd.yaml-patch
+  s_e7929fb30b042b::t_ab9b53fa89131c 1-24
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_ingress.crd.yaml
+  s_e7929fb30b042b::t_04cf24a0bb6303 1-334
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_network.crd.yaml
+  s_e7929fb30b042b::t_6adb9499fa77ca 1-163
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_node.crd.yaml
+  s_e7929fb30b042b::t_a3ef6f4be1fd2b 1-59
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_oauth.crd.yaml
+  s_e7929fb30b042b::t_66996657d3ae70 1-444
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_project.crd.yaml
+  s_e7929fb30b042b::t_d82163ba5ed7b4 1-55
+vendor/github.com/openshift/api/config/v1/0000_10_config-operator_01_scheduler.crd.yaml
+  s_e7929fb30b042b::t_3a84bae40c2f01 1-68
+vendor/github.com/openshift/api/config/v1/0000_10_openshift-controller-manager-operator_01_build.crd.yaml
+  s_e7929fb30b042b::t_9a4be5d72b3c40 1-291
+vendor/github.com/openshift/api/config/v1/Makefile
+  s_e7929fb30b042b::t_610aae0970392c 1-3
+vendor/github.com/openshift/api/config/v1/custom.apiserver.testsuite.yaml
+  s_e7929fb30b042b::t_0981b1049eb6bb 1-35
+vendor/github.com/openshift/api/config/v1/custom.dns.testsuite.yaml
+  s_e7929fb30b042b::t_3bdb39e855c6b9 1-104
+vendor/github.com/openshift/api/config/v1/custom.infrastructure.testsuite.yaml
+  s_e7929fb30b042b::t_e754bb0065528e 1-321
+vendor/github.com/openshift/api/config/v1/doc.go
+  s_e7929fb30b042b::t_793735168afc64 1-8
+vendor/github.com/openshift/api/config/v1/feature_gates.go
+  s_e7929fb30b042b::t_7607719a4edbdb 1-304
+vendor/github.com/openshift/api/config/v1/register.go
+  s_e7929fb30b042b::t_c32818d2d3db77 1-78
+vendor/github.com/openshift/api/config/v1/stable.apiserver.testsuite.yaml
+  s_e7929fb30b042b::t_6bc75e9741af3a 1-36
+vendor/github.com/openshift/api/config/v1/stable.authentication.testsuite.yaml
+  s_e7929fb30b042b::t_c083f4e57c1dc6 1-14
+vendor/github.com/openshift/api/config/v1/stable.build.testsuite.yaml
+  s_e7929fb30b042b::t_60d977665c4c20 1-14
+vendor/github.com/openshift/api/config/v1/stable.clusteroperator.testsuite.yaml
+  s_e7929fb30b042b::t_7c4ca50950d2d4 1-14
+vendor/github.com/openshift/api/config/v1/stable.clusterversion.testsuite.yaml
+  s_e7929fb30b042b::t_f2c0ef8ffade91 1-418
+vendor/github.com/openshift/api/config/v1/stable.console.testsuite.yaml
+  s_e7929fb30b042b::t_e4cac0434f2977 1-14
+vendor/github.com/openshift/api/config/v1/stable.dns.testsuite.yaml
+  s_e7929fb30b042b::t_8e66a98ac4243a 1-105
+vendor/github.com/openshift/api/config/v1/stable.featuregate.testsuite.yaml
+  s_e7929fb30b042b::t_e871306a228170 1-14
+vendor/github.com/openshift/api/config/v1/stable.image.testsuite.yaml
+  s_e7929fb30b042b::t_b1bf9b9484e842 1-14
+vendor/github.com/openshift/api/config/v1/stable.imagecontentpolicy.testsuite.yaml
+  s_e7929fb30b042b::t_60b52475990f35 1-14
+vendor/github.com/openshift/api/config/v1/stable.imagedigestmirrorset.testsuite.yaml
+  s_e7929fb30b042b::t_a8086d42e682d4 1-14
+vendor/github.com/openshift/api/config/v1/stable.imagetagmirrorset.testsuite.yaml
+  s_e7929fb30b042b::t_4ffa9a41484674 1-14
+vendor/github.com/openshift/api/config/v1/stable.infrastructure.testsuite.yaml
+  s_e7929fb30b042b::t_b9c8575f58e354 1-1066
+vendor/github.com/openshift/api/config/v1/stable.ingress.testsuite.yaml
+  s_e7929fb30b042b::t_9ee2922161d8c4 1-14
+vendor/github.com/openshift/api/config/v1/stable.network.testsuite.yaml
+  s_e7929fb30b042b::t_8f827184a305c1 1-14
+vendor/github.com/openshift/api/config/v1/stable.node.testsuite.yaml
+  s_e7929fb30b042b::t_00ed8c89227d58 1-14
+vendor/github.com/openshift/api/config/v1/stable.oauth.testsuite.yaml
+  s_e7929fb30b042b::t_30e7e326d0b46e 1-14
+vendor/github.com/openshift/api/config/v1/stable.operatorhub.testsuite.yaml
+  s_e7929fb30b042b::t_3706393c46eb8c 1-14
+vendor/github.com/openshift/api/config/v1/stable.project.testsuite.yaml
+  s_e7929fb30b042b::t_033767e153ff45 1-14
+vendor/github.com/openshift/api/config/v1/stable.proxy.testsuite.yaml
+  s_e7929fb30b042b::t_8341eb7a14a873 1-14
+vendor/github.com/openshift/api/config/v1/stable.scheduler.testsuite.yaml
+  s_e7929fb30b042b::t_d43d6bf7532547 1-14
+vendor/github.com/openshift/api/config/v1/stringsource.go
+  s_e7929fb30b042b::t_517c47701422e0 1-31
+vendor/github.com/openshift/api/config/v1/techpreview.apiserver.testsuite.yaml
+  s_e7929fb30b042b::t_1bcec83939ac8b 1-35
+vendor/github.com/openshift/api/config/v1/techpreview.dns.testsuite.yaml
+  s_e7929fb30b042b::t_68163a8ecb0520 1-14
+vendor/github.com/openshift/api/config/v1/techpreview.infrastructure.testsuite.yaml
+  s_e7929fb30b042b::t_0b0ac3328c3f92 1-519
+vendor/github.com/openshift/api/config/v1/types.go
+  s_e7929fb30b042b::t_623ef08d5fa505 1-400
+vendor/github.com/openshift/api/config/v1/types_apiserver.go
+  s_e7929fb30b042b::t_3e219aa20eb2c4 1-221
+vendor/github.com/openshift/api/config/v1/types_authentication.go
+  s_e7929fb30b042b::t_9954e436aac9f4 1-161
+vendor/github.com/openshift/api/config/v1/types_build.go
+  s_e7929fb30b042b::t_7d65e525d31d92 1-127
+vendor/github.com/openshift/api/config/v1/types_cluster_operator.go
+  s_e7929fb30b042b::t_1ffede95ce5bd5 1-216
+vendor/github.com/openshift/api/config/v1/types_cluster_version.go
+  s_e7929fb30b042b::t_9ada1a82a7ac80 1-730
+vendor/github.com/openshift/api/config/v1/types_console.go
+  s_e7929fb30b042b::t_4b72394cb51e36 1-75
+vendor/github.com/openshift/api/config/v1/types_dns.go
+  s_e7929fb30b042b::t_4a5c5f1e33b06e 1-135
+vendor/github.com/openshift/api/config/v1/types_feature.go
+  s_e7929fb30b042b::t_06aa3110c98e9e 1-295
+vendor/github.com/openshift/api/config/v1/types_image.go
+  s_e7929fb30b042b::t_dc7059b1e6b5b1 1-132
+vendor/github.com/openshift/api/config/v1/types_image_content_policy.go
+  s_e7929fb30b042b::t_d484eb87712f3f 1-95
+vendor/github.com/openshift/api/config/v1/types_image_digest_mirror_set.go
+  s_e7929fb30b042b::t_f695ddc61f63f1 1-137
+vendor/github.com/openshift/api/config/v1/types_image_tag_mirror_set.go
+  s_e7929fb30b042b::t_465d0267231626 1-124
+vendor/github.com/openshift/api/config/v1/types_infrastructure.go
+  s_e7929fb30b042b::t_144d7f77e5dba8 1-1494
+vendor/github.com/openshift/api/config/v1/types_ingress.go
+  s_e7929fb30b042b::t_94d7ac486fb1df 1-334
+vendor/github.com/openshift/api/config/v1/types_network.go
+  s_e7929fb30b042b::t_557e437953545d 1-183
+vendor/github.com/openshift/api/config/v1/types_node.go
+  s_e7929fb30b042b::t_b2e44c797bec44 1-114
+vendor/github.com/openshift/api/config/v1/types_oauth.go
+  s_e7929fb30b042b::t_0d7f1684740f90 1-592
+vendor/github.com/openshift/api/config/v1/types_operatorhub.go
+  s_e7929fb30b042b::t_1b695df52486d9 1-91
+vendor/github.com/openshift/api/config/v1/types_project.go
+  s_e7929fb30b042b::t_ce00b2ea41b15f 1-65
+vendor/github.com/openshift/api/config/v1/types_proxy.go
+  s_e7929fb30b042b::t_680323613ab76b 1-105
+vendor/github.com/openshift/api/config/v1/types_scheduling.go
+  s_e7929fb30b042b::t_5c856ca461aec4 1-111
+vendor/github.com/openshift/api/config/v1/types_tlssecurityprofile.go
+  s_e7929fb30b042b::t_bf2e17343af7fa 1-262
+vendor/github.com/openshift/api/config/v1/zz_generated.deepcopy.go
+  s_e7929fb30b042b::t_8680fc4818f194 1-5417
+vendor/github.com/openshift/api/config/v1/zz_generated.swagger_doc_generated.go
+  s_e7929fb30b042b::t_8130a0f21e3686 1-2345
+vendor/github.com/openshift/api/network/v1/001-clusternetwork-crd.yaml
+  s_e7929fb30b042b::t_d35c9c6a183423 1-102
+vendor/github.com/openshift/api/network/v1/002-hostsubnet-crd.yaml
+  s_e7929fb30b042b::t_fdcdb10f2f10b0 1-88
+vendor/github.com/openshift/api/network/v1/003-netnamespace-crd.yaml
+  s_e7929fb30b042b::t_06feb8577fb41f 1-66
+vendor/github.com/openshift/api/network/v1/004-egressnetworkpolicy-crd.yaml
+  s_e7929fb30b042b::t_0a27d3b2651718 1-71
+vendor/github.com/openshift/api/network/v1/Makefile
+  s_e7929fb30b042b::t_b5324555889dba 1-3
+vendor/github.com/openshift/api/network/v1/constants.go
+  s_e7929fb30b042b::t_f5734782644145 1-17
+vendor/github.com/openshift/api/network/v1/doc.go
+  s_e7929fb30b042b::t_04978790c8e408 1-8
+vendor/github.com/openshift/api/network/v1/generated.pb.go
+  s_e7929fb30b042b::t_e7300dd6c2fbf1 1-3186
+vendor/github.com/openshift/api/network/v1/generated.proto
+  s_e7929fb30b042b::t_a9ff3e3cc00b17 1-243
+vendor/github.com/openshift/api/network/v1/legacy.go
+  s_e7929fb30b042b::t_929a43aa93b9bd 1-27
+vendor/github.com/openshift/api/network/v1/register.go
+  s_e7929fb30b042b::t_b8a70940ae7213 1-44
+vendor/github.com/openshift/api/network/v1/stable.clusternetwork.testsuite.yaml
+  s_e7929fb30b042b::t_b5b563a54712a9 1-16
+vendor/github.com/openshift/api/network/v1/stable.egressnetworkpolicy.testsuite.yaml
+  s_e7929fb30b042b::t_2663bb5120c197 1-16
+vendor/github.com/openshift/api/network/v1/stable.hostsubnet.testsuite.yaml
+  s_e7929fb30b042b::t_5c425ae03821fd 1-18
+vendor/github.com/openshift/api/network/v1/stable.netnamespace.testsuite.yaml
+  s_e7929fb30b042b::t_0f33d4849cc70b 1-16
+vendor/github.com/openshift/api/network/v1/types.go
+  s_e7929fb30b042b::t_170882cefd1d24 1-300
+vendor/github.com/openshift/api/network/v1/zz_generated.deepcopy.go
+  s_e7929fb30b042b::t_e2d366fc989897 1-347
+vendor/github.com/openshift/api/network/v1/zz_generated.swagger_doc_generated.go
+  s_e7929fb30b042b::t_4294f638cd9f43 1-145
+vendor/github.com/openshift/api/network/v1alpha1/0000_70_dnsnameresolver_00-customnoupgrade.crd.yaml
+  s_e7929fb30b042b::t_0b2fe1f2737423 1-154
+vendor/github.com/openshift/api/network/v1alpha1/0000_70_dnsnameresolver_00-customnoupgrade.crd.yaml-patch
+  s_e7929fb30b042b::t_298787e131c133 1-5
+vendor/github.com/openshift/api/network/v1alpha1/0000_70_dnsnameresolver_00-techpreview.crd.yaml
+  s_e7929fb30b042b::t_91090583eb9b98 1-154
+vendor/github.com/openshift/api/network/v1alpha1/0000_70_dnsnameresolver_00-techpreview.crd.yaml-patch
+  s_e7929fb30b042b::t_74f5995da24d46 1-5
+vendor/github.com/openshift/api/network/v1alpha1/Makefile
+  s_e7929fb30b042b::t_bfbda7c5b87297 1-3
+vendor/github.com/openshift/api/network/v1alpha1/custom.dnsnameresolver.testsuite.yaml
+  s_e7929fb30b042b::t_90df2d16721240 1-402
+vendor/github.com/openshift/api/network/v1alpha1/doc.go
+  s_e7929fb30b042b::t_323f6c90c97e35 1-6
+vendor/github.com/openshift/api/network/v1alpha1/register.go
+  s_e7929fb30b042b::t_10240a15698851 1-40
+vendor/github.com/openshift/api/network/v1alpha1/techpreview.dnsnameresolver.testsuite.yaml
+  s_e7929fb30b042b::t_11fbc49d1bfb4b 1-402
+vendor/github.com/openshift/api/network/v1alpha1/types_dnsnameresolver.go
+  s_e7929fb30b042b::t_8f519200ca9e38 1-139
+vendor/github.com/openshift/api/network/v1alpha1/zz_generated.deepcopy.go
+  s_e7929fb30b042b::t_313320cca852e8 1-161
+vendor/github.com/openshift/api/network/v1alpha1/zz_generated.swagger_doc_generated.go
+  s_e7929fb30b042b::t_bb5a6f3b70a572 1-76
+vendor/github.com/openshift/client-go/LICENSE
+  s_e7929fb30b042b::t_bec1d4ddd0c14e 1-191
+vendor/github.com/openshift/client-go/network/applyconfigurations/internal/internal.go
+  s_e7929fb30b042b::t_5a2cd3acd12c98 1-438
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/clusternetwork.go
+  s_e7929fb30b042b::t_d218a4ccffa548 1-290
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/clusternetworkentry.go
+  s_e7929fb30b042b::t_e808ace210cfcd 1-32
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/egressnetworkpolicy.go
+  s_e7929fb30b042b::t_e5c27a973a8127 1-233
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/egressnetworkpolicypeer.go
+  s_e7929fb30b042b::t_70ad5edd29a5c7 1-32
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/egressnetworkpolicyrule.go
+  s_e7929fb30b042b::t_f2bee5980bc1d1 1-36
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/egressnetworkpolicyspec.go
+  s_e7929fb30b042b::t_16c7afbfd35809 1-28
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/hostsubnet.go
+  s_e7929fb30b042b::t_cf93ce12589dd8 1-271
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1/netnamespace.go
+  s_e7929fb30b042b::t_bbf9ae208dc6ef 1-251
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1alpha1/dnsnameresolver.go
+  s_e7929fb30b042b::t_1f11349d881d33 1-242
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1alpha1/dnsnameresolverresolvedaddress.go
+  s_e7929fb30b042b::t_9aec01c40c5245 1-45
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1alpha1/dnsnameresolverresolvedname.go
+  s_e7929fb30b042b::t_13e9ab56616d9b 1-62
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1alpha1/dnsnameresolverspec.go
+  s_e7929fb30b042b::t_bc478b5934b45f 1-27
+vendor/github.com/openshift/client-go/network/applyconfigurations/network/v1alpha1/dnsnameresolverstatus.go
+  s_e7929fb30b042b::t_23392836be29ec 1-28
+vendor/github.com/openshift/client-go/network/clientset/versioned/clientset.go
+  s_e7929fb30b042b::t_a0d27ad0a5863e 1-117
+vendor/github.com/openshift/client-go/network/clientset/versioned/scheme/doc.go
+  s_e7929fb30b042b::t_1ce10e0637603d 1-4
+vendor/github.com/openshift/client-go/network/clientset/versioned/scheme/register.go
+  s_e7929fb30b042b::t_42a824ac90930c 1-42
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1/clusternetwork.go
+  s_e7929fb30b042b::t_52b98317277aa1 1-181
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1/doc.go
+  s_e7929fb30b042b::t_6ef716ebae02f9 1-4
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1/egressnetworkpolicy.go
+  s_e7929fb30b042b::t_98021d5916e270 1-192
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1/generated_expansion.go
+  s_e7929fb30b042b::t_16bba6217498d8 1-11
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1/hostsubnet.go
+  s_e7929fb30b042b::t_20a557a6ea168c 1-181
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1/netnamespace.go
+  s_e7929fb30b042b::t_00a995dd42fdcd 1-181
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1/network_client.go
+  s_e7929fb30b042b::t_e60d14110cabbc 1-106
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1alpha1/dnsnameresolver.go
+  s_e7929fb30b042b::t_546525d790ee48 1-240
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1alpha1/doc.go
+  s_e7929fb30b042b::t_47aa88a7e8ba5b 1-4
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1alpha1/generated_expansion.go
+  s_e7929fb30b042b::t_d9c8ffa686ba2f 1-5
+vendor/github.com/openshift/client-go/network/clientset/versioned/typed/network/v1alpha1/network_client.go
+  s_e7929fb30b042b::t_ce91ed7e1e70fb 1-91
+vendor/github.com/openshift/client-go/network/informers/externalversions/factory.go
+  s_e7929fb30b042b::t_1ed7402cc80cd8 1-235
+vendor/github.com/openshift/client-go/network/informers/externalversions/generic.go
+  s_e7929fb30b042b::t_8010f3171b3f16 1-57
+vendor/github.com/openshift/client-go/network/informers/externalversions/internalinterfaces/factory_interfaces.go
+  s_e7929fb30b042b::t_3fdb26806bb272 1-24
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/interface.go
+  s_e7929fb30b042b::t_bf624e9d8d6697 1-38
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/v1/clusternetwork.go
+  s_e7929fb30b042b::t_f24d88a0156102 1-73
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/v1/egressnetworkpolicy.go
+  s_e7929fb30b042b::t_1e17a1f0c7d453 1-74
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/v1/hostsubnet.go
+  s_e7929fb30b042b::t_f666278515cfb5 1-73
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/v1/interface.go
+  s_e7929fb30b042b::t_5f80aabc15b6dc 1-50
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/v1/netnamespace.go
+  s_e7929fb30b042b::t_9c792b3bcd5dd2 1-73
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/v1alpha1/dnsnameresolver.go
+  s_e7929fb30b042b::t_ebf4cb0cb6a3ae 1-74
+vendor/github.com/openshift/client-go/network/informers/externalversions/network/v1alpha1/interface.go
+  s_e7929fb30b042b::t_c8a847b04a3807 1-29
+vendor/github.com/openshift/client-go/network/listers/network/v1/clusternetwork.go
+  s_e7929fb30b042b::t_dc819d77f80973 1-52
+vendor/github.com/openshift/client-go/network/listers/network/v1/egressnetworkpolicy.go
+  s_e7929fb30b042b::t_4d0226f37d0e79 1-83
+vendor/github.com/openshift/client-go/network/listers/network/v1/expansion_generated.go
+  s_e7929fb30b042b::t_11d8e05757ce73 1-23
+vendor/github.com/openshift/client-go/network/listers/network/v1/hostsubnet.go
+  s_e7929fb30b042b::t_af5eae2667c317 1-52
+vendor/github.com/openshift/client-go/network/listers/network/v1/netnamespace.go
+  s_e7929fb30b042b::t_db4e1a79637c51 1-52
+vendor/github.com/openshift/client-go/network/listers/network/v1alpha1/dnsnameresolver.go
+  s_e7929fb30b042b::t_0cdec13507cf18 1-83
+vendor/github.com/openshift/client-go/network/listers/network/v1alpha1/expansion_generated.go
+  s_e7929fb30b042b::t_2d2fb4e99e59d4 1-11
+vendor/github.com/openshift/coredns-mdns/.gitignore
+  s_e7929fb30b042b::t_9c6d2789561f10 1-2
+vendor/github.com/openshift/coredns-mdns/CONTRIBUTING.md
+  s_e7929fb30b042b::t_6b25ff31bd39b0 1-11
+vendor/github.com/openshift/coredns-mdns/DCO
+  s_e7929fb30b042b::t_f7bcac46ab0f89 1-37
+vendor/github.com/openshift/coredns-mdns/Dockerfile
+  s_e7929fb30b042b::t_c530c84e1d029b 1-16
+vendor/github.com/openshift/coredns-mdns/Jenkinsfile
+  s_e7929fb30b042b::t_6f3cd2333f11a2 1-14
+vendor/github.com/openshift/coredns-mdns/LICENSE
+  s_e7929fb30b042b::t_333c40461bd5aa 1-202
+vendor/github.com/openshift/coredns-mdns/Makefile
+  s_e7929fb30b042b::t_256e190ed9d84e 1-19
+vendor/github.com/openshift/coredns-mdns/OWNERS
+  s_e7929fb30b042b::t_f605c4b94743b8 1-8
+vendor/github.com/openshift/coredns-mdns/README.md
+  s_e7929fb30b042b::t_80c1864e94a514 1-118
+vendor/github.com/openshift/coredns-mdns/etcd.service
+  s_e7929fb30b042b::t_e30929408ba9cd 1-10
+vendor/github.com/openshift/coredns-mdns/mdns.go
+  s_e7929fb30b042b::t_f2e8ea9c7121ff 1-278
+vendor/github.com/openshift/coredns-mdns/setup.go
+  s_e7929fb30b042b::t_cf7b8b5f3d9952 1-79
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/.ci-operator.yaml
+  s_e7929fb30b042b::t_832c8444d21492 1-4
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/.gitignore
+  s_e7929fb30b042b::t_f9a72f69291a53 1
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/Dockerfile
+  s_e7929fb30b042b::t_a661270cf3b334 1-14
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/Dockerfile.upstream
+  s_e7929fb30b042b::t_ce670a52a4f498 1-10
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/LICENSE
+  s_e7929fb30b042b::t_b202dc6500639b 1-201
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/Makefile
+  s_e7929fb30b042b::t_a50cc64fac8867 1-42
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/OWNERS
+  s_e7929fb30b042b::t_0c17bbd7c500fa 1-21
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/README.md
+  s_e7929fb30b042b::t_21e858855c88b2 1-81
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/dnsnameresolver.go
+  s_e7929fb30b042b::t_8dec195352fb8a 1-280
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/handler.go
+  s_e7929fb30b042b::t_3f763b7c8f0fbd 1-759
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/namespace.go
+  s_e7929fb30b042b::t_220dbb5e911000 1-11
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/setup.go
+  s_e7929fb30b042b::t_d9c3f0c2c67742 1-104
+vendor/github.com/openshift/coredns-ocp-dnsnameresolver/utils.go
+  s_e7929fb30b042b::t_935350831af0e7 1-36
+vendor/github.com/openshift/mdns-publisher/LICENSE
+  s_e7929fb30b042b::t_f136624703f808 1-202
+vendor/github.com/openshift/mdns-publisher/pkg/publisher/publisher.go
+  s_e7929fb30b042b::t_dbee72127246c1 1-126
+vendor/github.com/openshift/mdns-publisher/pkg/publisher/service.go
+  s_e7929fb30b042b::t_b486a8e11ad9e5 1-84
+vendor/github.com/sirupsen/logrus/.gitignore
+  s_e7929fb30b042b::t_100e6f38a5fc17 1-4
+vendor/github.com/sirupsen/logrus/.golangci.yml
+  s_e7929fb30b042b::t_1115822e75be6a 1-40
+vendor/github.com/sirupsen/logrus/.travis.yml
+  s_e7929fb30b042b::t_fd6cce60fe811d 1-15
+vendor/github.com/sirupsen/logrus/CHANGELOG.md
+  s_e7929fb30b042b::t_1cc1ef66eb1114 1-259
+vendor/github.com/sirupsen/logrus/LICENSE
+  s_e7929fb30b042b::t_bbe7dfdf12a0d7 1-21
+vendor/github.com/sirupsen/logrus/README.md
+  s_e7929fb30b042b::t_d9ba262caee018 1-515
+vendor/github.com/sirupsen/logrus/alt_exit.go
+  s_e7929fb30b042b::t_2f551d3a868b8e 1-76
+vendor/github.com/sirupsen/logrus/appveyor.yml
+  s_e7929fb30b042b::t_ff4d6b2959d41e 1-14
+vendor/github.com/sirupsen/logrus/buffer_pool.go
+  s_e7929fb30b042b::t_5bd479c5b9db25 1-43
+vendor/github.com/sirupsen/logrus/doc.go
+  s_e7929fb30b042b::t_717d1aa0a932a4 1-26
+vendor/github.com/sirupsen/logrus/entry.go
+  s_e7929fb30b042b::t_e0a58fc891a38b 1-442
+vendor/github.com/sirupsen/logrus/exported.go
+  s_e7929fb30b042b::t_99cadc0c4f4bd3 1-270
+vendor/github.com/sirupsen/logrus/formatter.go
+  s_e7929fb30b042b::t_282fe9b0e5c456 1-78
+vendor/github.com/sirupsen/logrus/hooks.go
+  s_e7929fb30b042b::t_adfe0587a6025d 1-34
+vendor/github.com/sirupsen/logrus/json_formatter.go
+  s_e7929fb30b042b::t_88ebc141c5a26a 1-128
+vendor/github.com/sirupsen/logrus/logger.go
+  s_e7929fb30b042b::t_91c9ce4c244886 1-417
+vendor/github.com/sirupsen/logrus/logrus.go
+  s_e7929fb30b042b::t_0cd26bf441ebf5 1-186
+vendor/github.com/sirupsen/logrus/terminal_check_appengine.go
+  s_e7929fb30b042b::t_56d871cfd4fe6f 1-11
+vendor/github.com/sirupsen/logrus/terminal_check_bsd.go
+  s_e7929fb30b042b::t_ccbf22e094bccd 1-13
+vendor/github.com/sirupsen/logrus/terminal_check_js.go
+  s_e7929fb30b042b::t_e01fc5f7479ca6 1-7
+vendor/github.com/sirupsen/logrus/terminal_check_no_terminal.go
+  s_e7929fb30b042b::t_26ff5e4e4a6655 1-11
+vendor/github.com/sirupsen/logrus/terminal_check_notappengine.go
+  s_e7929fb30b042b::t_c17763f4b95b8b 1-17
+vendor/github.com/sirupsen/logrus/terminal_check_solaris.go
+  s_e7929fb30b042b::t_50436360343df6 1-11
+vendor/github.com/sirupsen/logrus/terminal_check_unix.go
+  s_e7929fb30b042b::t_23444c75260514 1-13
+vendor/github.com/sirupsen/logrus/terminal_check_windows.go
+  s_e7929fb30b042b::t_e8061c156cd5c2 1-27
+vendor/github.com/sirupsen/logrus/text_formatter.go
+  s_e7929fb30b042b::t_431bd66ac8cd40 1-339
+vendor/github.com/sirupsen/logrus/writer.go
+  s_e7929fb30b042b::t_2fd74486edcf73 1-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "89eb35b3f91cc084f8367f6a78448b4da6d085e9",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
