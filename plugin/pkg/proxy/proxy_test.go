@@ -269,7 +269,6 @@ func TestShouldTruncateResponse(t *testing.T) {
 		})
 	}
 }
-<<<<<<< HEAD
 
 func TestProxyMalformedUDPThenValid(t *testing.T) {
 	tests := []struct {

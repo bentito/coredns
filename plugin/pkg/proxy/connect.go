@@ -6,10 +6,7 @@ package proxy
 import (
 	"context"
 	"errors"
-<<<<<<< HEAD
 	"fmt"
-=======
->>>>>>> 37a9afe69 (UPSTREAM: 6277: openshift: Fix OCPBUGS-27397)
 	"io"
 	"net"
 	"net/http/httptrace"
