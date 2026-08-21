@@ -1,0 +1,35 @@
+plugin/kubernetes/parse.go
+  s_e7929fb30b042b::t_f2eccd1f69be01 69-80
+plugin/kubernetes/metadata_test.go
+  s_e7929fb30b042b::t_f2eccd1f69be01 33-34,44-45,56-57,80-81
+plugin/kubernetes/parse_test.go
+  s_e7929fb30b042b::t_f2eccd1f69be01 21
+  s_e7929fb30b042b::t_4b90c1e37595c1 20,22,24
+plugin/kubernetes/README.md
+  s_e7929fb30b042b::t_f2eccd1f69be01 316-336
+plugin/kubernetes/handler_test.go
+  s_e7929fb30b042b::t_f2eccd1f69be01 42-49,68-103,144-260,587
+  s_e7929fb30b042b::t_f1d97124eaaa5e 261
+plugin/kubernetes/kubernetes_test.go
+  s_e7929fb30b042b::t_f2eccd1f69be01 19-39
+plugin/kubernetes/kubernetes.go
+  s_e7929fb30b042b::t_f2eccd1f69be01 360,405,413,431,445-450,453-457,471,477,486-491,499-506,514-519,703,721,753,755-758,769-771
+plugin/kubernetes/external_test.go
+  s_e7929fb30b042b::t_f2eccd1f69be01 35-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "0f3a27633933ac9941b59dbdb0b7dc5dc70c6d42",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
