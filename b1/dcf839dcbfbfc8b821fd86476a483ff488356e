@@ -1,0 +1,21 @@
+.ci-operator.yaml
+  s_e7929fb30b042b::t_f8602f1e4e38c3 4
+Dockerfile.openshift.rhel7
+  s_e7929fb30b042b::t_f8602f1e4e38c3 1,6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "b1dcf839dcbfbfc8b821fd86476a483ff488356e",
+  "prompts": {},
+  "sessions": {
+    "s_e7929fb30b042b": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "84a781bb-a623-454d-9459-c905e25c1c13",
+        "model": "gemini-3.5-flash"
+      },
+      "human_author": "Brett Tofel <btofel@redhat.com>"
+    }
+  }
+}
